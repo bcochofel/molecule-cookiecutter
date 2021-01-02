@@ -31,3 +31,10 @@ You can force all the hooks to run with the following command:
 ```ShellSession
 pre-commit run --all-files
 ```
+
+# Usage
+
+```bash
+pip install cookiecutter
+cookiecutter gh:bcochofel/molecule-cookiecutter
+```
