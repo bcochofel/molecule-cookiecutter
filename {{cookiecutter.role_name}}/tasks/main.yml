@@ -1,0 +1,8 @@
+---
+# tasks file for {{ cookiecutter.role_name }}
+{% raw %}
+- name: print distro info
+  debug: msg="{{ ansible_os_family }} > {{ ansible_distribution }} {{ ansible_distribution_version }}"
+{% endraw %}
+- name: Include checks/asserts
+  include: asserts.yml

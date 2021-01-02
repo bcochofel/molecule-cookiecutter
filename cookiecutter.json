@@ -1,0 +1,12 @@
+{
+    "molecule_directory": "molecule",
+    "dependency_name": "galaxy",
+    "driver_name": "docker",
+    "provisioner_name": "ansible",
+    "scenario_name": "default",
+    "verifier_name": "ansible",
+    "role_name": "OVERRIDDEN",
+    "author": "Bruno Cochofel",
+    "description": "OVERRIDDEN",
+    "license": "MIT"
+}
