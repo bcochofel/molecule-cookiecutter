@@ -14,4 +14,3 @@
   fail:
     msg: "{{ ansible_distribution_version }} is not a supported version of {{ ansible_distribution }} for this role"
   when: ansible_distribution == "Ubuntu" and ansible_distribution_version is version_compare(20.04, '<'){% endraw %}
-
